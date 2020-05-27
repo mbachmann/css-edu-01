@@ -1,4 +1,4 @@
-# Tutorial for CSS-sectors
+# Tutorial for CSS-Selectors
 
 Clone this repository to your IDE with:
 
