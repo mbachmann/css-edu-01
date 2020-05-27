@@ -1,0 +1,51 @@
+<html lang="de">
+  <head>
+    <title>Selector Demo</title>
+    <meta charset="utf-8" />
+	  <style type="text/css">
+
+/*
+      Selector Demo: insert a selector into the input field in order to
+      highlight the selected items. Alternatively, you can replace the
+      selector in the following CSS rule.
+*/
+
+      selector
+      {
+        background-color: mediumaquamarine !important;
+      }
+
+  	</style>
+    <link href="assets/css/selectors.css" rel="stylesheet">
+    <script src="assets/js/jquery-1.12.2.min.js"></script>
+    <script src="assets/js/selectors.js"></script>
+  </head>
+
+  <body>body
+    <header>header
+      <h1>h1</h1>
+      <nav>nav
+        <ul>ul
+          <li>li<a href="">a</a></li>
+          <li>li<a href="">a</a></li>
+          <li class="active" data-selector-demo-tag='class="active"'>li<a href="">a</a></li>
+          <li>li<a href="">a</a></li>
+          <li>li<a href="">a</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>main
+      <section>section
+        <h2>h2</h2>
+        <p data-selector-demo-tag-move='src="logo.png" alt="Logo"'>p<img src="assets/image/logo.png" alt="Logo"></p>
+        <p id="ads" data-selector-demo-tag='id="ads"'>p
+          <a href="docs.pdf" data-selector-demo-tag='href="docs.pdf"'>a</a>
+        </p>
+      </section>
+
+    </main>
+    <form>
+      <div>Selector:<br><input type="text" autofocus><br>v1.1</div>
+    </form>
+  </body>
+</html>
