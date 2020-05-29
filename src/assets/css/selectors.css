@@ -4,7 +4,13 @@ body {
 }
 a {
   display: block;
+  border: 1px solid blue;
 }
+
+a:hover {
+  background-color: yellow;
+}
+
 body,header,h1,h2,h3,nav,ul,li,a,main,section,p,img,article {
   position:absolute;
   top: 100px;
@@ -23,6 +29,15 @@ body,header,h1,h2,h3,nav,ul,li,a,main,section,p,img,article {
   background-color: white;
 }
 
+a {
+  display: block;
+  border: 1px solid blue;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
 body       { top: 40px;  left: 480px;  }
 header     { left: -280px; }
 main       { left: 280px;  }
@@ -32,12 +47,18 @@ nav        { left: 140px;  }
 ul         { list-style-type: none; }
 h2         { left: -140px; }
 
+h3:nth-child(1) { left: -140px; }
+h3:nth-child(2) { left: 0px; }
+h3:nth-child(3) { left: 140px; }
+
+
 li:nth-child(1) { left: -280px; }
 li:nth-child(2) { left: -140px; }
 li:nth-child(4) { left: 140px; }
 li:nth-child(5) { left: 280px; }
 
 p:nth-child(3)  { left: 140px; }
+
 
 span {
   display: block;
